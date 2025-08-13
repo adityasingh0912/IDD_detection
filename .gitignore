@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# VS Code
+.vscode/
+
+# Data and results
+*.csv
+*.tsv
+*.log
+*.out
+*.dat
+*.pth
+*.pt
+*.h5
+*.ckpt
+*.weights
+*.onnx
+*.pb
+*.tflite
+*.npy
+*.npz
+
+# Images and outputs
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+*.tiff
+*.svg
+runs/
+final_results/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Exclude large datasets
+Annotations/
+JPEGImages/
+mini_dataset/
+
+# Others
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Ignore test and validation text files
+*.txt
+
+# Ignore YAML config backups
+*.yaml~
